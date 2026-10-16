@@ -1,0 +1,92 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0}
+  body{width:1080px;height:1350px;background:#1E3D1E;font-family:'Inter',sans-serif;color:#fff;overflow:hidden;position:relative}
+  .top{padding:70px 80px 0}
+  .eyebrow{color:#C89A5B;font-weight:700;letter-spacing:6px;font-size:26px;text-transform:uppercase}
+  h1{font-family:'DejaVu Serif',serif;font-size:84px;line-height:1.02;margin:18px 0 0;font-weight:700}
+  h1 span{color:#C89A5B}
+  .art{position:absolute;top:330px;left:0;width:1080px;height:560px}
+  .art{top:300px;height:410px}
+  .list{position:absolute;top:715px;left:80px;right:80px}
+  .cta{position:absolute;top:1078px;left:80px;right:80px;background:#C89A5B;color:#1E3D1E;border-radius:14px;padding:22px 30px;display:flex;align-items:center;gap:24px}
+  .cta .h{font-family:'DejaVu Serif',serif;font-weight:700;font-size:31px;line-height:1.1}
+  .cta .s{font-size:24px;font-weight:500;margin-top:6px}
+  .cta .badge{flex:none;width:70px;height:70px;border-radius:50%;background:#1E3D1E;color:#C89A5B;display:flex;align-items:center;justify-content:center;font-size:38px}
+  .item{display:flex;align-items:center;gap:26px;padding:13px 0;border-top:2px solid rgba(200,154,91,.35);font-size:34px;font-weight:500}
+  .num{flex:none;width:58px;height:58px;border-radius:50%;background:#C89A5B;color:#1E3D1E;font-weight:800;font-size:28px;display:flex;align-items:center;justify-content:center}
+  .foot{position:absolute;bottom:34px;align-items:flex-end;left:80px;right:80px;display:flex;justify-content:space-between;font-size:24px;color:rgba(255,255,255,.75);letter-spacing:1px}
+  .foot b{color:#C89A5B;font-weight:700}
+</style></head>
+<body>
+  <div class="top">
+    <div class="eyebrow">Fall Maintenance · Central Indiana</div>
+    <h1>Get ready for the<br><span>first hard freeze</span></h1>
+  </div>
+
+  <svg class="art" viewBox="0 0 1080 560" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <!-- sky glow -->
+    <defs>
+      <radialGradient id="g" cx="50%" cy="60%" r="60%">
+        <stop offset="0" stop-color="#2E5A2E"/><stop offset="1" stop-color="#1E3D1E"/>
+      </radialGradient>
+    </defs>
+    <rect width="1080" height="560" fill="url(#g)"/>
+    <!-- moon -->
+    <circle cx="880" cy="90" r="46" fill="#F3E3C7" opacity=".9"/>
+    <!-- ground -->
+    <path d="M0 470 Q540 430 1080 470 L1080 560 L0 560Z" fill="#163016"/>
+    <!-- tree -->
+    <rect x="150" y="300" width="22" height="180" fill="#3B2A1A"/>
+    <path d="M161 330 L110 270 M161 360 L215 300 M161 300 L150 230" stroke="#3B2A1A" stroke-width="12" stroke-linecap="round"/>
+    <g fill="#C89A5B">
+      <circle cx="105" cy="262" r="38"/><circle cx="150" cy="222" r="44"/><circle cx="215" cy="290" r="40"/><circle cx="190" cy="245" r="34"/>
+    </g>
+    <g fill="#B5562E"><circle cx="128" cy="240" r="22"/><circle cx="200" cy="270" r="20"/></g>
+    <!-- house -->
+    <rect x="380" y="250" width="380" height="220" fill="#F7F3EA"/>
+    <path d="M350 260 L570 120 L790 260Z" fill="#2B2B2B"/>
+    <!-- gutter with leaves -->
+    <rect x="345" y="256" width="450" height="14" rx="3" fill="#8A8A8A"/>
+    <rect x="782" y="256" width="12" height="214" fill="#8A8A8A"/>
+    <g fill="#C89A5B"><ellipse cx="400" cy="254" rx="14" ry="7"/><ellipse cx="470" cy="252" rx="12" ry="6"/><ellipse cx="610" cy="253" rx="14" ry="7"/></g>
+    <g fill="#B5562E"><ellipse cx="430" cy="252" rx="11" ry="6"/><ellipse cx="700" cy="254" rx="12" ry="6"/></g>
+    <!-- chimney -->
+    <rect x="660" y="150" width="44" height="80" fill="#7A3B2A"/>
+    <path d="M682 140 q-14 -24 6 -44 q-18 -18 4 -40" stroke="#ffffff" stroke-opacity=".5" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- door & windows -->
+    <rect x="545" y="350" width="60" height="120" fill="#1E3D1E"/>
+    <circle cx="592" cy="412" r="5" fill="#C89A5B"/>
+    <rect x="420" y="310" width="80" height="70" fill="#F2C76B"/><path d="M460 310v70M420 345h80" stroke="#F7F3EA" stroke-width="6"/>
+    <rect x="645" y="310" width="80" height="70" fill="#F2C76B"/><path d="M685 310v70M645 345h80" stroke="#F7F3EA" stroke-width="6"/>
+    <!-- spigot + coiled hose -->
+    <rect x="740" y="400" width="26" height="12" rx="3" fill="#B08D57"/>
+    <circle cx="760" cy="395" r="9" fill="#C0392B"/>
+    <g fill="none" stroke="#3E8E41" stroke-width="9">
+      <ellipse cx="880" cy="470" rx="62" ry="20"/><ellipse cx="880" cy="458" rx="52" ry="16"/>
+    </g>
+    <!-- snowflake badge -->
+    <g transform="translate(905 330)" stroke="#ffffff" stroke-width="6" stroke-linecap="round">
+      <circle r="48" fill="#C89A5B" stroke="none"/>
+      <path d="M0-28V28M-24-14L24 14M-24 14L24-14" stroke="#1E3D1E"/>
+    </g>
+    <!-- falling leaves -->
+    <g fill="#C89A5B" opacity=".85"><ellipse cx="300" cy="120" rx="12" ry="6" transform="rotate(30 300 120)"/><ellipse cx="980" cy="230" rx="12" ry="6" transform="rotate(-20 980 230)"/><ellipse cx="260" cy="400" rx="12" ry="6" transform="rotate(50 260 400)"/></g>
+  </svg>
+
+  <div class="list">
+    <div class="item"><div class="num">1</div>Disconnect hoses &amp; shut off outdoor spigots</div>
+    <div class="item"><div class="num">2</div>Clear gutters once the leaves are down</div>
+    <div class="item"><div class="num">3</div>New furnace filter + heating tune-up</div>
+    <div class="item"><div class="num">4</div>Seal drafts at doors &amp; windows</div>
+  </div>
+
+  <div class="cta">
+    <div class="badge">✓</div>
+    <div><div class="h">Let MyHome handle all four for you.</div>
+    <div class="s">Call or text <b>317-440-9258</b> to get on the fall schedule.</div></div>
+  </div>
+
+  <div class="foot"><img src="../brand/logo-white.png" style="height:104px;display:block"><span><b>317-440-9258</b> · myhomeestatemgmt.com</span></div>
+</body></html>
