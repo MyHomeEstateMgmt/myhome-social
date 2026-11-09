@@ -10,3 +10,4 @@
 | 2026-10-30 | Fri | Make your basement the winter hangout (moisture, zones, egress, flooring/lighting) | Basement remodeling (spotlight) |
 | 2026-11-03 | Tue | Get your furnace ready for winter (filter, vents/returns, 3 ft clearance, ceiling fans clockwise) | One-visit service call / Essential Care plan |
 | 2026-11-06 | Fri | One plan covers every season (inspection, seasonal maintenance, on-demand repairs, dedicated handyman) | Concierge plans (spotlight) |
+| 2026-11-10 | Tue | Seal the drafts before deep cold (door weatherstripping, door sweeps, window caulk, outlet gaskets) | One-visit service call / Essential Care plan |
