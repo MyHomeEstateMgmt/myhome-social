@@ -14,3 +14,4 @@
 | 2026-11-13 | Fri | Safer at home for every age (grab bars, lever handles, stair/hall lighting, low-threshold showers) | Aging-in-place / ADA upgrades (spotlight) |
 | 2026-11-17 | Tue | Get ready for the first snowfall (snow blower test, concrete-safe ice melt, driveway stakes, porch/walkway lights) | One-visit service call / Essential Care plan |
 | 2026-11-20 | Fri | Leaving town for the holidays (thermostat ≥55°F, main water shutoff, light timers, someone checks inside) | Property oversight & monitoring |
+| 2026-11-24 | Tue | Stop ice dams before they start (seal attic air leaks, top up insulation, clear soffit vents, roof-rake eaves from ground) | One-visit service call / Essential Care plan |
